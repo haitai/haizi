@@ -1,0 +1,69 @@
+body,td,th {
+	font-size: 14px;
+	color: #000000;
+	line-height: 25px;
+}
+body {
+	background-color: #000000;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+blockquote,p {margin-top:0;margin-bottom:25px}
+a:visited {
+	color: #323924;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+a:link {
+     color: #323924;
+	text-decoration: none;
+}
+.style3 {
+	font-size: 26px;
+	font-family: "黑体";
+	line-height: 50px;
+	font-weight: bold;
+}
+.style6 {font-size: 36px;
+	font-family: "黑体";
+	filter:shadow(color=#92aa6c,direction=135);
+
+	line-height: 50px;
+	font-weight: bold;
+	margin-left: 0;
+	margin-right: 0
+}
+p.style6{ 
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  *writing-mode: tb-rl;/* IE 写法 */
+}
+.style7 { 
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  *writing-mode: tb-rl;/* IE 写法 */
+	margin-left: 5px;
+	}
+.style8 {
+	font-size: 16px;
+	font-family: "黑体";
+	line-height: 25px;
+	}
+.style9 {
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 25px;
+	}
+.style10 {
+	font-size: 20px;
+	font-family: "黑体";
+	line-height: 25px;
+	}
+.style11 {font-family: "黑体"; line-height: 50px; font-size: 26px;}

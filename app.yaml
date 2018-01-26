@@ -1,0 +1,31 @@
+application: poemhaizi
+version: www
+runtime: python27
+api_version: 1
+threadsafe: True
+
+default_expiration: "3650d"
+
+skip_files: |
+ ^(.*/)?(
+ (#.*#)|
+ (.*~)|
+ (.*\.py[co])|
+ (.*/RCS/.*)|
+ (\..*)|
+ (.*\.bat)|
+ (.*/\.svn/.*)|
+ (.*/Thumbs\.db)|
+ )$
+
+handlers:
+
+- url: /
+  static_files: index.htm
+  upload: index.htm
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+- url: /(.*)
+  static_files: \1
+  upload: (.*)
